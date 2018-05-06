@@ -1,0 +1,13 @@
+The second step was to configuring trunk mode 
+in all the switches
+
+In the global configuration mode in every switch enter the commands.
+
+1.interf fa0/23
+2.switchport mode trunk
+3.switchport nonegotiate
+4.interf fa0/24
+5.switchport mode trunk
+6.switchport nonegotiate
+7.end
+8.copy run start

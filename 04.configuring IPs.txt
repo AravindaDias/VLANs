@@ -1,0 +1,10 @@
+The fourth step is to add the IP addresses and the 
+subnet masks to the laptop computers.
+As we are no going out-side our network, default
+gateway is not necessary.
+
+Setting IP addresses 
+for the RED VLAN : 192.168.10.0/24
+for the BLUE VLAN : 192.168.20.0/24
+for the GREEN VLAN : 192.168.30.0/24
+

@@ -1,0 +1,17 @@
+The first step is to configuring VLANs for al the 
+switches.
+
+In the global configuration mode, applied the following commands
+
+1.vlan 10
+2.name RED
+3.exit
+4.vlan 20
+5.name BLUE
+6.exit
+7.vlan 30
+8.name GREEN
+9.exit
+10.end
+11.copy run start
+

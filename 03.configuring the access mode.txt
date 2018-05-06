@@ -1,0 +1,18 @@
+The third step is to configure the access mode in all of the 
+switch ports
+
+In the global configuration mode in every switch, following 
+commands were entered.
+
+1.interf fa0/1
+2.switchport mode access
+3.switchport access vlan 10
+4.interf fa0/2
+5.switchport mode access
+6.switchport access vlan 20
+7.interf fa0/3
+8.switchport mode access
+9.switchport access vlan 30
+10.do write memory
+11.end
+12.copy run start
